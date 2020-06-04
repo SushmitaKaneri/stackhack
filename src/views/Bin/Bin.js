@@ -115,7 +115,7 @@ pin(e){
             <Col sm="1" md="1" lg="1"></Col>  
           </Row></center>
         </CardBody>
-        <CardFooter style={{color:"#d9455f",background:"#fdfdc4"}}><center>{e.label!=''?<i className="icon-tag d-block mt-2">   {this.state.result==null?"":e.label}</i>:''}{e.reminder!=""? <i className="icon-clock d-block mt-2">   {e.reminder.substring(0,e.reminder.indexOf('T'))}  {e.reminder.substring(e.reminder.indexOf('T')+1,e.reminder.length-8)}</i>:''}</center></CardFooter>
+        <CardFooter style={{color:"#d9455f",background:"#fdfdc4"}}><center>{e.label!=''?<i className="icon-tag d-block mt-2">   {this.state.result==null?"":e.label}</i>:''}{e.reminder!=null? <i className="icon-clock d-block mt-2">   {e.reminder.substring(0,e.reminder.indexOf('T'))}  {e.reminder.substring(e.reminder.indexOf('T')+1,e.reminder.length-8)}</i>:''}</center></CardFooter>
       </Card>
     </Col>
        

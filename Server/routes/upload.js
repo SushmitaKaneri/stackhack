@@ -153,7 +153,9 @@ conn.once("open", () => {
         if(req.body.label == 'Not Labelled') search.label=""
         else if(req.body.label != "") search.label=req.body.label
         
-        if(req.body.status!="") search.status = req.body.status
+        if(req.body.status=="In Progress") search.status = "Progress"
+        else if(req.body.status!="") search.status = req.body.status
+        
         if(req.body.priority!=""){
             search.pin_color = req.body.priority=='Pinned'?'#178515':'#a4c5c6'
         }

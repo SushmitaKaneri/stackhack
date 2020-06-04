@@ -113,7 +113,7 @@ componentDidMount(){
                    <Row><Col md="4" lg="4" sm="4"><Label><b>Upload Image</b></Label></Col><Col md="8" lg="8" sm="8"><Input type="file" onChange={this.onChangei} placeholder="Select Image" /></Col></Row>
                   </InputGroup>
                   <InputGroup>
-                  <Row><Col md="4" lg="4" sm="4"><Label><b>Set Reminder</b></Label></Col>
+                  <Row><Col md="4" lg="4" sm="4"><Label><b>Due Date Reminder</b></Label></Col>
                   <Col md="8" lg="8" sm="8">
                   <DateTimePicker
                     onChange={this.onChange}
