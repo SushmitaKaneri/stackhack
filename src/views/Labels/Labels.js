@@ -45,8 +45,8 @@ class Labels extends Component {
         .then(()=>{
         })
         .catch(err=>console.log(err));
-        if(setStatus == 'Bin') alert("You can view the note in Bin section as well as in All Notes!");
-        else if(setStatus == 'Archive') alert("You can view the note in Archive/Completed section as well as in All Notes!");
+        if(setStatus == 'Bin') alert("You can view the note in Bin section as well as in Tasks");
+        else if(setStatus == 'Archive') alert("You can view the note in Archive/Completed section as well as in Tasks");
         return window.location.reload(false);
       }
       else{
@@ -69,7 +69,7 @@ pin(e){
     .then(()=>{
     })
     .catch(err=>console.log(err));
-    alert("You can view the note in Pinned section as well as in All Notes!");
+    alert("You can view the note in Pinned section as well as in Tasks");
         return window.location.reload(false);
     }
     else {
@@ -78,7 +78,7 @@ pin(e){
     .then(()=>{
     })
     .catch(err=>console.log(err));
-    alert("You can view the note in All Notes!");
+    alert("You can view the note in Tasks");
         return window.location.reload(false);
     }  
   }

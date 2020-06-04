@@ -27,7 +27,7 @@ class Login extends Component {
     axios.defaults.withCredentials = true 
     axios.post(server_url+'/api/user/authenticate', {withCredentials:true, email: this.state.email , password:this.state.password})
     .then(res=>{
-      axios.post(server_url+'/api/upload/todo', {email:this.state.user})
+      axios.post(server_url+'/api/upload/todo', {email:this.state.email})
       .then((result) => {
         if(result.data.length>0) alert("Welcome, please check My Day Section for Today's Todo!")
       })

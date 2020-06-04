@@ -1,2 +1,2 @@
-let server_url = "";
+let server_url = "http://localhost:3001";
 export default server_url;
