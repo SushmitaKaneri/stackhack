@@ -29,8 +29,7 @@ class Login extends Component {
     .then(res=>{
       axios.post(server_url+'/api/upload/todo', {email:this.state.user})
       .then((result) => {
-        alert(result.data.length)
-        if(result.data.length>-1) alert("Welcome, please check My Day Section for Today's Todo!")
+        if(result.data.length>0) alert("Welcome, please check My Day Section for Today's Todo!")
       })
       .catch(err => alert(err));
         return this.props.history.push('./dashboard');
