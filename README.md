@@ -1,4 +1,4 @@
-# Hackthon_3.0
+# Stackhack Todo
 Stackhack Hackthon - Todo
 
 Technology Stack : React js, Node js, MongoDB, AWS, Github
