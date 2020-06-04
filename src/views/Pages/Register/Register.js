@@ -33,7 +33,7 @@ submitreg()
             alert("Successfully Registered. Use your email id and password to login.");
             return this.props.history.push('./login');
           })
-          .catch(err=>alert("Missing/Incorrect Values or Email ID already taken"));
+          .catch(err=>alert(err));
    } 
 
   render() {
@@ -82,7 +82,7 @@ submitreg()
                         <i className="fa fa-user"></i>
                       </InputGroupText>
                     </InputGroupAddon>
-                    <Input type="text" onChange={this.handle_change} placeholder="Password" name="password"/>
+                    <Input type="password" onChange={this.handle_change} placeholder="Password" name="password"/>
                   </InputGroup>
 
                     <InputGroup className="mb-3">

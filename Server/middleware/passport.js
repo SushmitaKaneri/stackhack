@@ -1,6 +1,6 @@
 const {User} = require('../models/user');
 const _ = require('lodash');
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 var LocalStrategy = require('passport-local').Strategy;
 
 
