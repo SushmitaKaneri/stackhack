@@ -1,8 +1,7 @@
 const express = require('express');
 const app = express();
 const config = require('./config/config');
-const feature = require('./routes/upload');    
-const error = require('./middleware/error'); 
+const feature = require('./routes/upload');  
 const user = require('./routes/register');
 const path = require("path");
 app.use(express.static(path.join(__dirname, "../build")))
