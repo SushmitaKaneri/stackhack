@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.googleapis.com/css?family=Questrial');
+.imageActivated:hover {
+    opacity: 0.7 !important;
+    cursor: pointer;
+}
+.back{
+
+  color: white;
+}
+.cool-font{
+  font-family: Quicksand;
+  font-size: 17px;
+}
+.card-head{
+  font-family: Questrial;
+  font-size: 15px;
+}

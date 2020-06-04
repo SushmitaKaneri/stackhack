@@ -1,0 +1,6 @@
+{
+  "name": "Bin",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./Bin.js"
+}

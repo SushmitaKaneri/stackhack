@@ -1,0 +1,12 @@
+
+ section []
+   {
+    Name
+    desc
+    name
+    image 64
+    doc binary
+    }
+
+    http://localhost:3001/api/users/authenticate
+    http://localhost:3001/api/users/logout

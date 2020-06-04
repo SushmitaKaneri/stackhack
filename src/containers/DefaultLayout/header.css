@@ -1,0 +1,11 @@
+.tabsstyling {
+    background-color: #63c2de !important;
+    color: white !important;
+    border-radius: 7px;
+    padding: 7px !important;
+}
+.tabsstyling:hover {
+    box-shadow: 1px 1px 1px 1px gray;
+    background-color: white !important;
+    color: black !important;
+}
