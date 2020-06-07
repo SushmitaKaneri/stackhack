@@ -178,10 +178,10 @@ loadNotes(){
           <Col sm="2" md="2" lg="2">
             <Input type="select" onChange={this.handle_change} id="status" name="status" style={{color:'#79d70f',fontWeight:'400',fontFamily:'cursive'}}>
               <option>Status</option>
-              <option>New</option>
-              <option>In Progress</option>
+              <option value="New">New</option>
+              <option value="Progress">In Progress</option>
               <option value="Archive">Completed</option>
-              <option>Deleted</option>
+              <option value="Bin">Deleted</option>
             </Input>
           </Col>
           <Col sm="2" md="2" lg="2"></Col>
