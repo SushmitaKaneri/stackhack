@@ -384,6 +384,20 @@ conn.once("open", () => {
             if (err) throw err;
         });        
     });
+
+    router.post('/analysis', async(req, res) => {
+        console.log("email:",req.body.email)
+        const total_section = await Section.find({email:req.body.email});
+        const section = await Section.find({email:req.body.email,status:'Archive'});
+        
+        let data = {
+            total:total_section.length,
+            completed:section.length
+        }
+        console.log("Length:",data)
+        res.send(data);
+    });
+
    
 
 module.exports = router;

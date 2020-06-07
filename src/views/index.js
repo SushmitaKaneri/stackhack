@@ -8,6 +8,7 @@ import Pinned from './Pinned';
 import Reminder from './Reminder';
 import Day from './Day';
 import Archive from './Archive';
+import Analysis from './Analysis';
 
 
 export {
@@ -23,6 +24,7 @@ export {
   Labels,
   Reminder,
   Archive,
-  Day
+  Day,
+  Analysis
 };
 

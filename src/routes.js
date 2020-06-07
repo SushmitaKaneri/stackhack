@@ -7,6 +7,11 @@ function Loading() {
   return <div>Loading...</div>;
 }
 
+const Anaylsis = Loadable({
+  loader: () => import('./views/Analysis'),
+  loading: Loading,
+});
+
 const Add_Note = Loadable({
   loader: () => import('./views/Add_Note'),
   loading: Loading,
@@ -77,7 +82,8 @@ const routes = [
   { path: '/archive', name: 'Archive', component: Archive },
   { path: '/bin', name: 'Bin', component: Bin },
   { path: '/reminder', name: 'Reminder', component: Reminder },
-  { path: '/day', name: 'My Day', component: Day }
+  { path: '/day', name: 'My Day', component: Day },
+  { path: '/analysis', name: 'Analysis', component: Anaylsis }
 ];
 
 export default routes;

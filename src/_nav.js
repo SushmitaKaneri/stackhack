@@ -46,6 +46,11 @@ export default {
       icon: 'icon-trash',
     },
     {
+      name: 'Analysis',
+      url: '/analysis',
+      icon: 'icon-chart',
+    },
+    {
       name: 'Login/Logout',
       url: '/Login',
       icon: 'icon-logout',
