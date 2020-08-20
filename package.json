@@ -17,7 +17,7 @@
     "@coreui/icons": "0.2.0",
     "@coreui/react": "^2.0.4",
     "axios": "^0.18.0",
-    "bcrypt": "^3.0.1",
+    "bcrypt": "^5.0.0",
     "body-parser": "^1.18.3",
     "bootstrap": "^4.1.1",
     "busboy-body-parser": "^0.3.2",
